@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+.thumb {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 700px;
+  margin: 0px auto;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.thumb .thumb_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2;
+  position: absolute;
+  bottom: 45%;
+  left: 30%;
+}
+
+.thumb .thumb_details h1,
+.thumb .thumb_details p {
+  color: white;
+  text-align: center;
+}
+
+.thumb .thumb_details h1 {
+  font-size: 40px;
+}
+
+.thumb .thumb_details p {
+  font-size: 30px;
+}
+
+.vehicles h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #4784FF;
+}
+
+.vehicles .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-bottom: 5px;
+  height: 280px;
+}
+
+.vehicles .slider img {
+  height: 210px;
+  width: 300px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  -webkit-box-shadow: 2px 5px 30px #dacece;
+          box-shadow: 2px 5px 30px #dacece;
+}
+
+.vehicles .slider .vehicles_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+  border: 1px dashed white;
+}
+
+.vehicles .slider .slider::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .thumb {
+    z-index: -1;
+    margin-top: 0px auto;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    font-family: 'Poppins';
+  }
+  .thumb img {
+    width: 100%;
+    height: 100%;
+  }
+  .thumb .transparant {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.309);
+  }
+  .thumb .thumb_details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 2;
+    position: absolute;
+    bottom: 40%;
+    left: 13%;
+  }
+  .thumb .thumb_details h1,
+  .thumb .thumb_details p {
+    color: white;
+    text-align: center;
+  }
+  .thumb .thumb_details h1 {
+    font-size: 20px;
+  }
+  .thumb .thumb_details p {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,899 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+.introduction {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  height: 700px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  color: white;
+  background: rgba(223, 215, 215, 0.055);
+  padding: 10px 20px;
+}
+
+.introduction .left_container {
+  width: 60%;
+  height: 50%;
+  padding-top: 4%;
+}
+
+.introduction .left_container h4 {
+  margin-top: 4%;
+  color: #4784FF;
+  font-weight: 500;
+}
+
+.introduction .left_container h1 {
+  font-size: 70px;
+  color: rgba(0, 0, 0, 0.781);
+  font-weight: bold;
+}
+
+.introduction .left_container p {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 0.912);
+}
+
+.introduction .left_container .statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  width: 40%;
+  margin: 3% auto;
+  left: 18%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  -webkit-box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.131);
+          box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.131);
+  padding: 25px 40px;
+  border-radius: 8px;
+}
+
+.introduction .left_container .statistics .state h5 {
+  font-weight: 600;
+  font-size: 17px;
+  color: #3d3b3b;
+}
+
+.introduction .left_container .statistics .custom_row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4px;
+}
+
+.introduction .left_container .statistics .custom_row p {
+  font-size: 14px;
+  padding-left: 9px;
+}
+
+.introduction .left_container .statistics .custom_row img {
+  height: 12px;
+  width: 12px;
+}
+
+.introduction .left_container .statistics button {
+  border: none;
+  background-color: #4784FF;
+  padding: 0px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.introduction .left_container .statistics button:hover {
+  cursor: pointer;
+}
+
+.introduction .right_container {
+  width: 40%;
+}
+
+.introduction .right_container img {
+  width: 90%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.how_to_book {
+  margin-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how_to_book h5 {
+  color: #4784FF;
+}
+
+.how_to_book h1 {
+  font-size: 40px;
+}
+
+.how_to_book h3 {
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.how_to_book .steps_to_book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  margin: 3% 0px;
+  height: 250px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.how_to_book .steps_to_book p {
+  font-size: 12px;
+}
+
+.how_to_book .steps_to_book .container_how_to_book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 10px;
+  padding: 30px 10px;
+  background-color: rgba(170, 162, 162, 0.075);
+  border-radius: 10px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.how_to_book .steps_to_book .container_how_to_book img {
+  height: 50px;
+  width: 50px;
+}
+
+.how_to_book .steps_to_book .container_how_to_book:hover {
+  -webkit-box-shadow: 0px 3px 40px rgba(68, 67, 67, 0.274);
+          box-shadow: 0px 3px 40px rgba(68, 67, 67, 0.274);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: white;
+}
+
+.how_to_book .steps_to_book .container_how_to_book:hover h3 {
+  color: #4784FF;
+}
+
+.about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  margin-bottom: 3em;
+  height: 500px;
+  width: 80%;
+  margin: 30px auto;
+  background: rgba(235, 230, 230, 0.207);
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_us .left_about {
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0px 10px;
+}
+
+.about_us .left_about img {
+  margin: auto;
+  height: 470px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.about_us .right_about {
+  margin-top: 8%;
+  margin-right: 6%;
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.about_us .right_about h5 {
+  color: #4784FF;
+}
+
+.about_us .right_about h1 {
+  font-size: 40px;
+}
+
+.about_us .right_about p {
+  color: rgba(128, 128, 128, 0.699);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.about_us .right_about .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 12px;
+  width: 90%;
+}
+
+.about_us .right_about .details .details1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: start;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.about_us .right_about .details .details1 li {
+  list-style-type: circle;
+}
+
+.about_us .right_about .explore_more {
+  margin-top: 5%;
+  padding: 14px 25px;
+  color: white;
+  background-color: #4784FF;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 40px rgba(82, 80, 80, 0.212);
+          box-shadow: 0px 10px 40px rgba(82, 80, 80, 0.212);
+}
+
+.about_us .right_about .explore_more:hover {
+  cursor: pointer;
+}
+
+.custom_footer {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(192, 186, 186, 0.089);
+}
+
+.custom_footer h1 {
+  margin-top: 3%;
+  font-size: 30px;
+  padding: 10px 30%;
+  text-align: center;
+}
+
+.custom_footer p {
+  color: #585656;
+  font-weight: 500;
+}
+
+.custom_footer .footer_buttons {
+  font-weight: bold;
+}
+
+.custom_footer .footer_buttons .find_car {
+  color: white;
+  background: #4784FF;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.custom_footer .footer_buttons .find_car a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.custom_footer .footer_buttons .find_car:hover {
+  cursor: pointer;
+}
+
+.custom_footer .footer_buttons .contact_us {
+  color: #4784FF;
+  background: white;
+  padding: 10px 30px;
+  border: 1px solid #4784FF;
+  border-radius: 5px;
+}
+
+.custom_footer .footer_buttons .contact_us a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.custom_footer .footer_buttons .contact_us:hover {
+  cursor: pointer;
+}
+
+.custom_footer .footer_details {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: 200px;
+}
+
+.custom_footer .footer_details h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.custom_footer .footer_details .footer_introduction p {
+  padding-right: 20%;
+  padding-top: 1%;
+}
+
+.custom_footer .footer_details .footer_sub_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 5px;
+}
+
+.custom_footer .footer_details .footer_sub_details h3 {
+  margin-bottom: 5px;
+}
+
+.custom_footer .social_media_links {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.custom_footer .social_media_links .social_media {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.custom_footer .social_media_links .social_media img {
+  height: 30px;
+  width: 30px;
+  padding: 0px 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .introduction {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    position: relative;
+    color: white;
+    background: rgba(223, 215, 215, 0.055);
+    padding: 10px 20px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: -1;
+  }
+  .introduction .left_container {
+    width: 60%;
+    padding-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .introduction .left_container h4 {
+    margin-top: 0px;
+    color: #4784FF;
+    font-weight: 500;
+    padding: 5px 0px;
+  }
+  .introduction .left_container h1 {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.781);
+    font-weight: bold;
+    padding: 5px 0px;
+  }
+  .introduction .left_container p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.912);
+    padding: 5px 0px;
+  }
+  .introduction .left_container .statistics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin: 10px 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: white;
+    -webkit-box-shadow: 0px 7px 40px rgba(68, 65, 65, 0.131);
+            box-shadow: 0px 7px 40px rgba(68, 65, 65, 0.131);
+    padding: 50px 20%;
+    border-radius: 8px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 0px;
+    right: 0px;
+  }
+  .introduction .left_container .statistics .state h5 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #3d3b3b;
+  }
+  .introduction .left_container .statistics .custom_row {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 4px;
+  }
+  .introduction .left_container .statistics .custom_row p {
+    font-size: 14px;
+    padding-left: 9px;
+  }
+  .introduction .left_container .statistics .custom_row img {
+    height: 12px;
+    width: 12px;
+  }
+  .introduction .left_container .statistics button {
+    border: none;
+    background-color: #4784FF;
+    padding: 15px 25px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  .introduction .left_container .statistics button:hover {
+    cursor: pointer;
+  }
+  .introduction .right_container {
+    display: none;
+    width: 40%;
+  }
+  .introduction .right_container img {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .how_to_book {
+    z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0px;
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .how_to_book h5 {
+    color: #4784FF;
+  }
+  .how_to_book h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .how_to_book .steps_to_book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin: 3px 3px;
+    height: 1000px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .how_to_book .steps_to_book p {
+    font-size: 15px;
+  }
+  .how_to_book .steps_to_book .container_how_to_book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px 30px;
+    padding: 30px 10px;
+    margin-bottom: 10px;
+    background-color: rgba(170, 162, 162, 0.075);
+    border-radius: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 2300px;
+    width: 80%;
+  }
+  .how_to_book .steps_to_book .container_how_to_book img {
+    height: 40px;
+    width: 40px;
+  }
+  .how_to_book .steps_to_book .container_how_to_book:hover {
+    -webkit-box-shadow: 0px 3px 40px rgba(68, 67, 67, 0.274);
+            box-shadow: 0px 3px 40px rgba(68, 67, 67, 0.274);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    background: white;
+  }
+  .how_to_book .steps_to_book .container_how_to_book:hover h3 {
+    color: #4784FF;
+  }
+  .about_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 400px 0px 100px 0px;
+    border-radius: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .left_about {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0px 10px;
+    margin: 0px auto;
+  }
+  .about_us .left_about img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .about_us .right_about {
+    margin-top: 4px;
+    margin-right: 0px;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .about_us .right_about h5 {
+    color: #4784FF;
+    font-size: 16px;
+  }
+  .about_us .right_about h1 {
+    font-size: 25px;
+    padding: 10px 0px;
+  }
+  .about_us .right_about p {
+    color: rgba(22, 20, 20, 0.699);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .about_us .right_about .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 12px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about_us .right_about .details .details1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: start;
+    font-weight: bold;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 2px 10px;
+    padding-right: 0px;
+  }
+  .about_us .right_about .details .details1 li {
+    list-style-type: circle;
+  }
+  .about_us .right_about .explore_more {
+    margin-top: 14px;
+    padding: 13px 30px;
+    color: white;
+    background-color: #4784FF;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 40px rgba(82, 80, 80, 0.212);
+            box-shadow: 0px 10px 40px rgba(82, 80, 80, 0.212);
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .about_us .right_about .explore_more:hover {
+    cursor: pointer;
+  }
+  .custom_footer {
+    margin-top: 0px;
+    display: display;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+    background: rgba(192, 186, 186, 0.089);
+  }
+  .custom_footer h1 {
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .custom_footer p {
+    color: #585656;
+    font-weight: 500;
+  }
+  .custom_footer .footer_buttons {
+    font-weight: bold;
+  }
+  .custom_footer .footer_buttons .find_car {
+    color: white;
+    background: #4784FF;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .custom_footer .footer_buttons .contact_us {
+    color: #4784FF;
+    background: white;
+    padding: 10px 30px;
+    border: 1px solid #4784FF;
+    border-radius: 5px;
+  }
+  .custom_footer .footer_details {
+    display: none;
+    margin-top: 3%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+    height: 200px;
+  }
+  .custom_footer .footer_details h3 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .custom_footer .footer_details .footer_introduction p {
+    padding-right: 20%;
+    padding-top: 1%;
+  }
+  .custom_footer .footer_details .footer_sub_details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .custom_footer .social_media_links {
+    padding: 10px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 15px;
+    width: 90%;
+  }
+  .custom_footer .social_media_links .social_media {
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .custom_footer .social_media_links .social_media img {
+    height: 25px;
+    width: 25px;
+    padding: 0px 3px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+body {
+  width: 90%;
+  font-family: 'Poppins';
+  max-width: 1500px;
+  font-size: 15px;
+  margin: auto;
+  background: #F7F8FA;
+}
+
+.title {
+  margin-top: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.vehicle_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.vehicle_type .vehicle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 130px;
+  background: #4784FF;
+  margin: 0px 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.vehicle_type .vehicle h1 {
+  margin: auto 0px;
+  color: white;
+}
+
+.vehicle_type .vehicle:hover {
+  cursor: pointer;
+}
+
+.vehicle_type::-webkit-scrollbar {
+  display: none;
+}
+
+.gear_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  overflow-x: scroll;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0px auto;
+}
+
+.gear_type div {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 140px;
+  border: 2px solid black;
+  padding: 3px 7px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.gear_type div:hover {
+  cursor: pointer;
+}
+
+.fuel_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: scroll;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  margin: 0px auto;
+}
+
+.fuel_type div {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 140px;
+  border: 2px solid black;
+  padding: 3px 7px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fuel_type div:hover {
+  cursor: pointer;
+}
+
+.duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: scroll;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 700px;
+  margin: 0px auto;
+}
+
+.duration .input_duration {
+  border: 2px solid #4784FF;
+  padding: 1em 3px;
+  font-weight: bold;
+}
+
+.duration input:focus {
+  border: 2px solid #4784FF;
+  outline: none !important;
+  -webkit-box-shadow: 0 0 10px #719ECE;
+          box-shadow: 0 0 10px #719ECE;
+}
+
+.send_info {
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3em 0px 0px auto;
+  padding: 10px 2em;
+  border: none;
+  background: white;
+  border: 2px solid #4784FF;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 90%;
+    font-family: 'Poppins';
+    max-width: 1500px;
+    font-size: 15px;
+    margin: auto;
+    background: #F7F8FA;
+  }
+  .title {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .vehicle_type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    position: relative;
+    width: 100%;
+  }
+  .vehicle_type .vehicle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 130px;
+    background: #4784FF;
+    margin: 0px 3px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .vehicle_type .vehicle h1 {
+    margin: auto 0px;
+    color: white;
+  }
+  .vehicle_type .vehicle:hover {
+    cursor: pointer;
+  }
+  .vehicle_type::-webkit-scrollbar {
+    display: none;
+  }
+  .gear_type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin: 0px auto;
+  }
+  .gear_type div {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    border: 2px solid black;
+    padding: 3px 7px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .gear_type div:hover {
+    cursor: pointer;
+  }
+  .fuel_type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .fuel_type div {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 5px auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 140px;
+    border: 2px solid black;
+    padding: 3px 7px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .fuel_type div:hover {
+    cursor: pointer;
+  }
+  .duration {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .duration .input_duration {
+    border: 2px solid #4784FF;
+    padding: 1em 3px;
+    font-weight: bold;
+  }
+  .duration input:focus {
+    border: 2px solid #4784FF;
+    outline: none !important;
+    -webkit-box-shadow: 0 0 10px #719ECE;
+            box-shadow: 0 0 10px #719ECE;
+  }
+  .send_info {
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 3em 0px 0px auto;
+    padding: 10px 2em;
+    border: none;
+    background: white;
+    border: 2px solid #4784FF;
+  }
+}
+/*# sourceMappingURL=booking.css.map */

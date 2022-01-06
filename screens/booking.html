@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/nav_bar.css">
+    <link rel="stylesheet" href="../style/booking.css">
+    <title>Booking</title>
+</head>
+
+<body>
+    <header class="header_navBar">
+        <div class="logo">
+            <img src="../assets/website_logo.png" alt="Logo">
+        </div>
+        <a href="#" class="toggle-button">
+            <img src="../assets/icons/menu.png" alt="menu_icons">
+        </a>
+        <nav class="nav_bar_section">
+            <ul class="nav_bar_content">
+                <li class="button_nav"> <a href="../index.html">Home</a></li>
+                <li class="button_nav"> <a href="gallery.html">Gallery</a></li>
+                <li class="button_nav"> <a href="booking.html">Booking</a></li>
+                <li class="button_nav"> <a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="authentication">
+                <button class="sign_in">Sign In</button>
+                <button class="sign_up">Sign Up</button>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="title">Vehicle Type</h1>
+    <section class="vehicle_type">
+        <div class="moto vehicle">
+            <h1>Moto</h1>
+        </div>
+        <div class="citadine vehicle">
+            <h1>Citadine</h1>
+        </div>
+        <div class="compact vehicle">
+            <h1>Compact</h1>
+        </div>
+        <div class="berline vehicle">
+            <h1>Berline</h1>
+        </div>
+        <div class="utilitaire vehicle">
+            <h1>Utilitaire</h1>
+        </div>
+        <div class="engine vehicle">
+            <h1>Heavy equipment</h1>
+        </div>
+        <div class="camion vehicle">
+            <h1>Truck</h1>
+        </div>
+
+    </section>
+    <h1 class="title">Gear Type</h1>
+    <section class="gear_type">
+        <div class="manual gear">Manual</div>
+        <div class="automatic gear">Automatic</div>
+    </section>
+    <h1 class="title">Fuel Type</h1>
+    <section class="fuel_type">
+        <div class="essence fuel">
+            Essence
+        </div>
+        <div class="electric fuel">
+            Electric
+        </div>
+        <div class="hybrid fuel">
+            Hybrid
+        </div>
+        <div class="diesel fuel">
+            Diesel
+        </div>
+    </section>
+    <h1 class="title">Booking Duration</h1>
+    <section class="duration">
+        <input type="number" class="input_duration">
+    </section>
+
+    <input type="submit" class="send_info">
+    <br style="margin:3em;">
+    <script type="module" src="../scripts/booking.js"></script>
+    <script src="../scripts/nav_bar.js"></script>
+</body>
+
+</html>

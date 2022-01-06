@@ -1,0 +1,239 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+    $primary_button: #4784FF;
+    $primary_Background: #F7F8FA;
+    body {
+        width: 90%;
+        font-family: 'Poppins';
+        max-width: 1500px;
+        font-size: 15px;
+        margin: auto;
+        background: $primary_Background;
+    }
+    
+    .title {
+        margin-top: 2em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+    .vehicle_type {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        position: relative;
+        .vehicle {
+            display: flex;
+            width: 200px;
+            height: 130px;
+            background: $primary_button;
+            margin: 0px 3px;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            h1 {
+                margin: auto 0px;
+                color: white;
+            }
+        }
+        .vehicle:hover {
+            cursor: pointer;
+        }
+    }
+    
+    .vehicle_type::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .gear_type {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 400px;
+        overflow-x: scroll;
+        align-self: center;
+        align-content: center;
+        margin: 0px auto;
+        div {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            width: 140px;
+            border: 2px solid black;
+            padding: 3px 7px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        div:hover {
+            cursor: pointer;
+        }
+    }
+    
+    .fuel_type {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        justify-content: space-between;
+        width: 700px;
+        margin: 0px auto;
+        div {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            width: 140px;
+            border: 2px solid black;
+            padding: 3px 7px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        div:hover {
+            cursor: pointer;
+        }
+    }
+    
+    .duration {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        justify-content: center;
+        width: 700px;
+        margin: 0px auto;
+        .input_duration {
+            border: 2px solid $primary_button;
+            padding: 1em 3px;
+            font-weight: bold;
+        }
+        input:focus {
+            border: 2px solid $primary_button;
+            outline: none !important;
+            box-shadow: 0 0 10px #719ECE;
+        }
+    }
+    
+    .send_info {
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        margin: 3em 0px 0px auto;
+        padding: 10px 2em;
+        border: none;
+        background: white;
+        border: 2px solid $primary_button;
+    }
+    
+    @media only screen and (max-width: 500px) {
+        body {
+            width: 90%;
+            font-family: 'Poppins';
+            max-width: 1500px;
+            font-size: 15px;
+            margin: auto;
+            background: $primary_Background;
+        }
+        .title {
+            margin-top: 2em;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .vehicle_type {
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+            position: relative;
+            width: 100%;
+            .vehicle {
+                display: flex;
+                width: 200px;
+                height: 130px;
+                background: $primary_button;
+                margin: 0px 3px;
+                justify-content: center;
+                text-align: center;
+                border-radius: 10px;
+                h1 {
+                    margin: auto 0px;
+                    color: white;
+                }
+            }
+            .vehicle:hover {
+                cursor: pointer;
+            }
+        }
+        .vehicle_type::-webkit-scrollbar {
+            display: none;
+        }
+        .gear_type {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            overflow-x: scroll;
+            align-self: center;
+            align-content: center;
+            margin: 0px auto;
+            div {
+                color: black;
+                font-size: 20px;
+                font-weight: bold;
+                width: 140px;
+                border: 2px solid black;
+                padding: 3px 7px;
+                border-radius: 6px;
+                text-align: center;
+            }
+            div:hover {
+                cursor: pointer;
+            }
+        }
+        .fuel_type {
+            display: flex;
+            flex-direction: column;
+            // overflow-x: hidden;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0px auto;
+            div {
+                color: black;
+                font-size: 20px;
+                font-weight: bold;
+                display: block;
+                margin: 5px auto;
+                align-items: center;
+                width: 140px;
+                border: 2px solid black;
+                padding: 3px 7px;
+                border-radius: 6px;
+                text-align: center;
+            }
+            div:hover {
+                cursor: pointer;
+            }
+        }
+        .duration {
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+            justify-content: center;
+            width: 90%;
+            margin: 0px auto;
+            .input_duration {
+                border: 2px solid $primary_button;
+                padding: 1em 3px;
+                font-weight: bold;
+            }
+            input:focus {
+                border: 2px solid $primary_button;
+                outline: none !important;
+                box-shadow: 0 0 10px #719ECE;
+            }
+        }
+        .send_info {
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            margin: 3em 0px 0px auto;
+            padding: 10px 2em;
+            border: none;
+            background: white;
+            border: 2px solid $primary_button;
+        }
+    }
