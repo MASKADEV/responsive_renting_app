@@ -98,17 +98,29 @@
   width: 12px;
 }
 
-.introduction .left_container .statistics button {
-  border: none;
+.introduction .left_container .statistics a {
+  text-decoration: none;
   background-color: #4784FF;
   padding: 0px 20px;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 4px;
+  height: 50px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
-.introduction .left_container .statistics button:hover {
+.introduction .left_container .statistics a span {
+  margin: auto;
+  text-align: center;
+}
+
+.introduction .left_container .statistics a:hover {
   cursor: pointer;
 }
 
@@ -461,7 +473,7 @@
   padding: 0px 10px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
   .introduction {
     margin-top: 50px;
     display: -webkit-box;
@@ -576,17 +588,27 @@
     height: 12px;
     width: 12px;
   }
-  .introduction .left_container .statistics button {
-    border: none;
+  .introduction .left_container .statistics a {
+    text-decoration: none;
     background-color: #4784FF;
-    padding: 15px 25px;
-    font-family: 'Poppins';
+    padding: 0px 20px;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 4px;
+    height: 50px;
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
   }
-  .introduction .left_container .statistics button:hover {
+  .introduction .left_container .statistics a span {
+    margin: auto;
+    text-align: center;
+  }
+  .introduction .left_container .statistics a:hover {
     cursor: pointer;
   }
   .introduction .right_container {
@@ -705,10 +727,17 @@
     overflow: hidden;
     padding: 0px 10px;
     margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .about_us .left_about img {
-    height: 300px;
-    width: 300px;
+    margin-top: 10px;
+    height: 290px;
+    width: 290px;
     border-radius: 10px;
   }
   .about_us .right_about {

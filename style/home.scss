@@ -65,16 +65,24 @@ $primary_Background: #F7F8FA;
                     width: 12px;
                 }
             }
-            button {
-                border: none;
+            a {
+                text-decoration: none;
                 background-color: $primary_button;
                 padding: 0px 20px;
                 color: white;
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 14px;
                 border-radius: 4px;
+                height: 50px;
+                width: 100px;
+                display: flex;
+                align-self: center;                
+                span {
+                    margin: auto;
+                    text-align: center;
+                }
             }
-            button:hover {
+            a:hover {
                 cursor: pointer;
             }
         }
@@ -316,7 +324,7 @@ $primary_Background: #F7F8FA;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
     .introduction {
         margin-top: 50px;
         display: flex;
@@ -393,17 +401,24 @@ $primary_Background: #F7F8FA;
                         width: 12px;
                     }
                 }
-                button {
-                    border: none;
+                a {
+                    text-decoration: none;
                     background-color: $primary_button;
-                    padding: 15px 25px;
-                    font-family: 'Poppins';
+                    padding: 0px 20px;
                     color: white;
                     font-weight: bold;
-                    font-size: 15px;
+                    font-size: 14px;
                     border-radius: 4px;
+                    height: 50px;
+                    width: 100px;
+                    display: flex;
+                    align-self: center;                
+                    span {
+                        margin: auto;
+                        text-align: center;
+                    }
                 }
-                button:hover {
+                a:hover {
                     cursor: pointer;
                 }
             }
@@ -491,9 +506,12 @@ $primary_Background: #F7F8FA;
             overflow: hidden;
             padding: 0px 10px;
             margin: 0px auto;
+            display: flex;
+            align-items: center;
             img {
-                height: 300px;
-                width: 300px;
+                margin-top: 10px;
+                height: 290px;
+                width: 290px;
                 border-radius: 10px;
             }
         }
