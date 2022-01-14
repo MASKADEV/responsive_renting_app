@@ -9,7 +9,7 @@ submit_btn.addEventListener('click', (e) => {
     if (user_name.value == '') {
         alert('Please Enter your name');
     } else if (user_email.value == '') {
-        alert('adsfasdf');
+        alert('Enter Email Please');
     } else if (user_subject.value == '') {
         alert('Please Enter Your Subject');
     } else {
