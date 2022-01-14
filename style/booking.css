@@ -25,6 +25,10 @@ body {
   overflow-x: scroll;
   position: relative;
   width: 100%;
+  margin: 0px auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .vehicle_type .vehicle {
@@ -46,14 +50,11 @@ body {
 .vehicle_type .vehicle h1 {
   margin: auto 0px;
   color: white;
+  font-size: 20px;
 }
 
 .vehicle_type .vehicle:hover {
   cursor: pointer;
-}
-
-.vehicle_type::-webkit-scrollbar {
-  display: none;
 }
 
 .gear_type {
@@ -166,7 +167,7 @@ body {
   border: 2px solid #4784FF;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 450px) {
   body {
     width: 90%;
     font-family: 'Poppins';

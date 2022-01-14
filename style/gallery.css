@@ -23,7 +23,8 @@
   z-index: 2;
   position: absolute;
   bottom: 45%;
-  left: 30%;
+  right: 0px;
+  left: 0px;
 }
 
 .thumb .thumb_details h1,
@@ -75,18 +76,10 @@
           transform: scale(1.1);
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  -webkit-animation: pulse 1s;
-          animation: pulse 1s;
-  -webkit-box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
-          box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
   border: 1px dashed white;
 }
 
-.vehicles .slider .slider::-webkit-scrollbar {
-  display: none;
-}
-
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 460px) {
   .thumb {
     z-index: -1;
     margin-top: 0px auto;
@@ -94,6 +87,7 @@
     height: 200px;
     position: relative;
     font-family: 'Poppins';
+    margin-top: 10px;
   }
   .thumb img {
     width: 100%;
